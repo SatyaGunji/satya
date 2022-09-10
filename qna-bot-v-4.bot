@@ -1,0 +1,24 @@
+{
+    "name": "qna-bot-v-4",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "qna",
+            "name": "manikanta",
+            "kbId": "88f00270-ac2b-4ae7-859f-549ca25fb27b",
+            "hostname": "https://manikanta557qna-bot-9cd4.azurewebsites.net/api/messages",
+            "endpointKey": "2af4047c-28b8-4def-9192-d1175e20df5a",
+            "subscriptionKey": "684c5149-b43c-4f65-b42e-9c8929f40716",
+            "id": "123"
+        }  
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
